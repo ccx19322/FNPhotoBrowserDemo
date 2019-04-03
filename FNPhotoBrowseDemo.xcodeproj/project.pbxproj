@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A45CB87225488E5005750B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A45CB86225488E5005750B5 /* AppDelegate.m */; };
+		7A45CB8A225488E5005750B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A45CB89225488E5005750B5 /* ViewController.m */; };
+		7A45CB8D225488E5005750B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A45CB8B225488E5005750B5 /* Main.storyboard */; };
+		7A45CB90225488E5005750B5 /* FNPhotoBrowseDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A45CB8E225488E5005750B5 /* FNPhotoBrowseDemo.xcdatamodeld */; };
+		7A45CB92225488E7005750B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A45CB91225488E7005750B5 /* Assets.xcassets */; };
+		7A45CB95225488E7005750B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A45CB93225488E7005750B5 /* LaunchScreen.storyboard */; };
+		7A45CB98225488E7005750B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A45CB97225488E7005750B5 /* main.m */; };
+		7A45CBAB2254897F005750B5 /* FNZoomingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A45CBA02254897F005750B5 /* FNZoomingScrollView.m */; };
+		7A45CBAC2254897F005750B5 /* FNProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A45CBA32254897F005750B5 /* FNProgressView.m */; };
+		7A45CBAD2254897F005750B5 /* UIImage+FNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A45CBA42254897F005750B5 /* UIImage+FNExtension.m */; };
+		7A45CBAE2254897F005750B5 /* UIView+FNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A45CBA72254897F005750B5 /* UIView+FNExtension.m */; };
+		7A45CBAF2254897F005750B5 /* FNPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A45CBA82254897F005750B5 /* FNPhotoBrowser.m */; };
+		7A45CBBC225489C7005750B5 /* FNActionSheetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A45CBB1225489C7005750B5 /* FNActionSheetCell.m */; };
+		7A45CBBD225489C7005750B5 /* FNActionSheetItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A45CBB2225489C7005750B5 /* FNActionSheetItem.m */; };
+		7A45CBBE225489C7005750B5 /* FNActionSheet_cancel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A45CBB5225489C7005750B5 /* FNActionSheet_cancel@3x.png */; };
+		7A45CBBF225489C7005750B5 /* FNActionSheet_cancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A45CBB6225489C7005750B5 /* FNActionSheet_cancel@2x.png */; };
+		7A45CBC0225489C7005750B5 /* FNActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A45CBB8225489C7005750B5 /* FNActionSheet.m */; };
+		7A45CBC1225489C7005750B5 /* FNActionSheetConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A45CBBB225489C7005750B5 /* FNActionSheetConfig.m */; };
+		7A45CBCB225489E9005750B5 /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A45CBC4225489E9005750B5 /* TADotView.m */; };
+		7A45CBCC225489E9005750B5 /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A45CBC5225489E9005750B5 /* TAPageControl.m */; };
+		7A45CBCD225489E9005750B5 /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A45CBC6225489E9005750B5 /* TAAnimatedDotView.m */; };
+		7A45CBCE225489E9005750B5 /* TAAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A45CBC7225489E9005750B5 /* TAAbstractDotView.m */; };
+		B34C6886B659756BB42C62A0 /* libPods-FNPhotoBrowseDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 457215C5B1906E4C2BBD4E9C /* libPods-FNPhotoBrowseDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		457215C5B1906E4C2BBD4E9C /* libPods-FNPhotoBrowseDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FNPhotoBrowseDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ADEF209C21646545FAB8A3D /* Pods-FNPhotoBrowseDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FNPhotoBrowseDemo.release.xcconfig"; path = "Target Support Files/Pods-FNPhotoBrowseDemo/Pods-FNPhotoBrowseDemo.release.xcconfig"; sourceTree = "<group>"; };
+		7A45CB82225488E5005750B5 /* FNPhotoBrowseDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FNPhotoBrowseDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A45CB85225488E5005750B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7A45CB86225488E5005750B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7A45CB88225488E5005750B5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7A45CB89225488E5005750B5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7A45CB8C225488E5005750B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A45CB8F225488E5005750B5 /* FNPhotoBrowseDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FNPhotoBrowseDemo.xcdatamodel; sourceTree = "<group>"; };
+		7A45CB91225488E7005750B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A45CB94225488E7005750B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A45CB96225488E7005750B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A45CB97225488E7005750B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7A45CB9F2254897F005750B5 /* UIView+FNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FNExtension.h"; sourceTree = "<group>"; };
+		7A45CBA02254897F005750B5 /* FNZoomingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNZoomingScrollView.m; sourceTree = "<group>"; };
+		7A45CBA12254897F005750B5 /* FNPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNPhotoBrowser.h; sourceTree = "<group>"; };
+		7A45CBA22254897F005750B5 /* FNPhotoBrowserConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNPhotoBrowserConfig.h; sourceTree = "<group>"; };
+		7A45CBA32254897F005750B5 /* FNProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNProgressView.m; sourceTree = "<group>"; };
+		7A45CBA42254897F005750B5 /* UIImage+FNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FNExtension.m"; sourceTree = "<group>"; };
+		7A45CBA52254897F005750B5 /* FNPhotoBrowserTypeDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNPhotoBrowserTypeDefine.h; sourceTree = "<group>"; };
+		7A45CBA62254897F005750B5 /* FNZoomingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNZoomingScrollView.h; sourceTree = "<group>"; };
+		7A45CBA72254897F005750B5 /* UIView+FNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FNExtension.m"; sourceTree = "<group>"; };
+		7A45CBA82254897F005750B5 /* FNPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNPhotoBrowser.m; sourceTree = "<group>"; };
+		7A45CBA92254897F005750B5 /* FNProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNProgressView.h; sourceTree = "<group>"; };
+		7A45CBAA2254897F005750B5 /* UIImage+FNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FNExtension.h"; sourceTree = "<group>"; };
+		7A45CBB1225489C7005750B5 /* FNActionSheetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNActionSheetCell.m; sourceTree = "<group>"; };
+		7A45CBB2225489C7005750B5 /* FNActionSheetItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNActionSheetItem.m; sourceTree = "<group>"; };
+		7A45CBB3225489C7005750B5 /* FNActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNActionSheet.h; sourceTree = "<group>"; };
+		7A45CBB5225489C7005750B5 /* FNActionSheet_cancel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FNActionSheet_cancel@3x.png"; sourceTree = "<group>"; };
+		7A45CBB6225489C7005750B5 /* FNActionSheet_cancel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FNActionSheet_cancel@2x.png"; sourceTree = "<group>"; };
+		7A45CBB7225489C7005750B5 /* FNActionSheetConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNActionSheetConfig.h; sourceTree = "<group>"; };
+		7A45CBB8225489C7005750B5 /* FNActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNActionSheet.m; sourceTree = "<group>"; };
+		7A45CBB9225489C7005750B5 /* FNActionSheetItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNActionSheetItem.h; sourceTree = "<group>"; };
+		7A45CBBA225489C7005750B5 /* FNActionSheetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNActionSheetCell.h; sourceTree = "<group>"; };
+		7A45CBBB225489C7005750B5 /* FNActionSheetConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNActionSheetConfig.m; sourceTree = "<group>"; };
+		7A45CBC3225489E9005750B5 /* TAAbstractDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAbstractDotView.h; sourceTree = "<group>"; };
+		7A45CBC4225489E9005750B5 /* TADotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADotView.m; sourceTree = "<group>"; };
+		7A45CBC5225489E9005750B5 /* TAPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPageControl.m; sourceTree = "<group>"; };
+		7A45CBC6225489E9005750B5 /* TAAnimatedDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAnimatedDotView.m; sourceTree = "<group>"; };
+		7A45CBC7225489E9005750B5 /* TAAbstractDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAbstractDotView.m; sourceTree = "<group>"; };
+		7A45CBC8225489E9005750B5 /* TADotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADotView.h; sourceTree = "<group>"; };
+		7A45CBC9225489E9005750B5 /* TAAnimatedDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAnimatedDotView.h; sourceTree = "<group>"; };
+		7A45CBCA225489E9005750B5 /* TAPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPageControl.h; sourceTree = "<group>"; };
+		E2706D03C9A9D9E2E355B8C7 /* Pods-FNPhotoBrowseDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FNPhotoBrowseDemo.debug.xcconfig"; path = "Target Support Files/Pods-FNPhotoBrowseDemo/Pods-FNPhotoBrowseDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A45CB7F225488E5005750B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B34C6886B659756BB42C62A0 /* libPods-FNPhotoBrowseDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45B8C386C088C405C6B5F59B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				457215C5B1906E4C2BBD4E9C /* libPods-FNPhotoBrowseDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A45CB79225488E5005750B5 = {
+			isa = PBXGroup;
+			children = (
+				7A45CB9E2254897F005750B5 /* FNPhotoBrower */,
+				7A45CB84225488E5005750B5 /* FNPhotoBrowseDemo */,
+				7A45CB83225488E5005750B5 /* Products */,
+				9E97BB481228A64874836447 /* Pods */,
+				45B8C386C088C405C6B5F59B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7A45CB83225488E5005750B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A45CB82225488E5005750B5 /* FNPhotoBrowseDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A45CB84225488E5005750B5 /* FNPhotoBrowseDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7A45CB85225488E5005750B5 /* AppDelegate.h */,
+				7A45CB86225488E5005750B5 /* AppDelegate.m */,
+				7A45CB88225488E5005750B5 /* ViewController.h */,
+				7A45CB89225488E5005750B5 /* ViewController.m */,
+				7A45CB8B225488E5005750B5 /* Main.storyboard */,
+				7A45CB91225488E7005750B5 /* Assets.xcassets */,
+				7A45CB93225488E7005750B5 /* LaunchScreen.storyboard */,
+				7A45CB96225488E7005750B5 /* Info.plist */,
+				7A45CB97225488E7005750B5 /* main.m */,
+				7A45CB8E225488E5005750B5 /* FNPhotoBrowseDemo.xcdatamodeld */,
+			);
+			path = FNPhotoBrowseDemo;
+			sourceTree = "<group>";
+		};
+		7A45CB9E2254897F005750B5 /* FNPhotoBrower */ = {
+			isa = PBXGroup;
+			children = (
+				7A45CBC2225489E9005750B5 /* PageControl */,
+				7A45CBB0225489C7005750B5 /* FNActionSheet */,
+				7A45CB9F2254897F005750B5 /* UIView+FNExtension.h */,
+				7A45CBA02254897F005750B5 /* FNZoomingScrollView.m */,
+				7A45CBA12254897F005750B5 /* FNPhotoBrowser.h */,
+				7A45CBA22254897F005750B5 /* FNPhotoBrowserConfig.h */,
+				7A45CBA32254897F005750B5 /* FNProgressView.m */,
+				7A45CBA42254897F005750B5 /* UIImage+FNExtension.m */,
+				7A45CBA52254897F005750B5 /* FNPhotoBrowserTypeDefine.h */,
+				7A45CBA62254897F005750B5 /* FNZoomingScrollView.h */,
+				7A45CBA72254897F005750B5 /* UIView+FNExtension.m */,
+				7A45CBA82254897F005750B5 /* FNPhotoBrowser.m */,
+				7A45CBA92254897F005750B5 /* FNProgressView.h */,
+				7A45CBAA2254897F005750B5 /* UIImage+FNExtension.h */,
+			);
+			path = FNPhotoBrower;
+			sourceTree = "<group>";
+		};
+		7A45CBB0225489C7005750B5 /* FNActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				7A45CBB1225489C7005750B5 /* FNActionSheetCell.m */,
+				7A45CBB2225489C7005750B5 /* FNActionSheetItem.m */,
+				7A45CBB3225489C7005750B5 /* FNActionSheet.h */,
+				7A45CBB4225489C7005750B5 /* FNActionSheetResources */,
+				7A45CBB7225489C7005750B5 /* FNActionSheetConfig.h */,
+				7A45CBB8225489C7005750B5 /* FNActionSheet.m */,
+				7A45CBB9225489C7005750B5 /* FNActionSheetItem.h */,
+				7A45CBBA225489C7005750B5 /* FNActionSheetCell.h */,
+				7A45CBBB225489C7005750B5 /* FNActionSheetConfig.m */,
+			);
+			path = FNActionSheet;
+			sourceTree = "<group>";
+		};
+		7A45CBB4225489C7005750B5 /* FNActionSheetResources */ = {
+			isa = PBXGroup;
+			children = (
+				7A45CBB5225489C7005750B5 /* FNActionSheet_cancel@3x.png */,
+				7A45CBB6225489C7005750B5 /* FNActionSheet_cancel@2x.png */,
+			);
+			path = FNActionSheetResources;
+			sourceTree = "<group>";
+		};
+		7A45CBC2225489E9005750B5 /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				7A45CBC3225489E9005750B5 /* TAAbstractDotView.h */,
+				7A45CBC4225489E9005750B5 /* TADotView.m */,
+				7A45CBC5225489E9005750B5 /* TAPageControl.m */,
+				7A45CBC6225489E9005750B5 /* TAAnimatedDotView.m */,
+				7A45CBC7225489E9005750B5 /* TAAbstractDotView.m */,
+				7A45CBC8225489E9005750B5 /* TADotView.h */,
+				7A45CBC9225489E9005750B5 /* TAAnimatedDotView.h */,
+				7A45CBCA225489E9005750B5 /* TAPageControl.h */,
+			);
+			path = PageControl;
+			sourceTree = "<group>";
+		};
+		9E97BB481228A64874836447 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E2706D03C9A9D9E2E355B8C7 /* Pods-FNPhotoBrowseDemo.debug.xcconfig */,
+				6ADEF209C21646545FAB8A3D /* Pods-FNPhotoBrowseDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A45CB81225488E5005750B5 /* FNPhotoBrowseDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A45CB9B225488E7005750B5 /* Build configuration list for PBXNativeTarget "FNPhotoBrowseDemo" */;
+			buildPhases = (
+				84D3D9DDBD34E76D9A7A311E /* [CP] Check Pods Manifest.lock */,
+				7A45CB7E225488E5005750B5 /* Sources */,
+				7A45CB7F225488E5005750B5 /* Frameworks */,
+				7A45CB80225488E5005750B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FNPhotoBrowseDemo;
+			productName = FNPhotoBrowseDemo;
+			productReference = 7A45CB82225488E5005750B5 /* FNPhotoBrowseDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A45CB7A225488E5005750B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "chen cx";
+				TargetAttributes = {
+					7A45CB81225488E5005750B5 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 7A45CB7D225488E5005750B5 /* Build configuration list for PBXProject "FNPhotoBrowseDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A45CB79225488E5005750B5;
+			productRefGroup = 7A45CB83225488E5005750B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A45CB81225488E5005750B5 /* FNPhotoBrowseDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A45CB80225488E5005750B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A45CB95225488E7005750B5 /* LaunchScreen.storyboard in Resources */,
+				7A45CBBE225489C7005750B5 /* FNActionSheet_cancel@3x.png in Resources */,
+				7A45CB92225488E7005750B5 /* Assets.xcassets in Resources */,
+				7A45CBBF225489C7005750B5 /* FNActionSheet_cancel@2x.png in Resources */,
+				7A45CB8D225488E5005750B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		84D3D9DDBD34E76D9A7A311E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FNPhotoBrowseDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A45CB7E225488E5005750B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A45CB90225488E5005750B5 /* FNPhotoBrowseDemo.xcdatamodeld in Sources */,
+				7A45CBCB225489E9005750B5 /* TADotView.m in Sources */,
+				7A45CBCC225489E9005750B5 /* TAPageControl.m in Sources */,
+				7A45CBBD225489C7005750B5 /* FNActionSheetItem.m in Sources */,
+				7A45CBBC225489C7005750B5 /* FNActionSheetCell.m in Sources */,
+				7A45CBAF2254897F005750B5 /* FNPhotoBrowser.m in Sources */,
+				7A45CB8A225488E5005750B5 /* ViewController.m in Sources */,
+				7A45CBAB2254897F005750B5 /* FNZoomingScrollView.m in Sources */,
+				7A45CBCE225489E9005750B5 /* TAAbstractDotView.m in Sources */,
+				7A45CBCD225489E9005750B5 /* TAAnimatedDotView.m in Sources */,
+				7A45CBAC2254897F005750B5 /* FNProgressView.m in Sources */,
+				7A45CBAE2254897F005750B5 /* UIView+FNExtension.m in Sources */,
+				7A45CBC1225489C7005750B5 /* FNActionSheetConfig.m in Sources */,
+				7A45CBAD2254897F005750B5 /* UIImage+FNExtension.m in Sources */,
+				7A45CBC0225489C7005750B5 /* FNActionSheet.m in Sources */,
+				7A45CB98225488E7005750B5 /* main.m in Sources */,
+				7A45CB87225488E5005750B5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7A45CB8B225488E5005750B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A45CB8C225488E5005750B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A45CB93225488E7005750B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A45CB94225488E7005750B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A45CB99225488E7005750B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7A45CB9A225488E7005750B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A45CB9C225488E7005750B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2706D03C9A9D9E2E355B8C7 /* Pods-FNPhotoBrowseDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FNPhotoBrowseDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ccx.FNPhotoBrowseDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A45CB9D225488E7005750B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ADEF209C21646545FAB8A3D /* Pods-FNPhotoBrowseDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FNPhotoBrowseDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ccx.FNPhotoBrowseDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A45CB7D225488E5005750B5 /* Build configuration list for PBXProject "FNPhotoBrowseDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A45CB99225488E7005750B5 /* Debug */,
+				7A45CB9A225488E7005750B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A45CB9B225488E7005750B5 /* Build configuration list for PBXNativeTarget "FNPhotoBrowseDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A45CB9C225488E7005750B5 /* Debug */,
+				7A45CB9D225488E7005750B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7A45CB8E225488E5005750B5 /* FNPhotoBrowseDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7A45CB8F225488E5005750B5 /* FNPhotoBrowseDemo.xcdatamodel */,
+			);
+			currentVersion = 7A45CB8F225488E5005750B5 /* FNPhotoBrowseDemo.xcdatamodel */;
+			path = FNPhotoBrowseDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7A45CB7A225488E5005750B5 /* Project object */;
+}
